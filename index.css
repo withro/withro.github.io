@@ -4,7 +4,7 @@
 }
 html,body{
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -20,6 +20,7 @@ body{
 p{
     line-height: 2;
 }
+.hide{display: none;}
 .map{
     width: 421px;
     height: 372px;
