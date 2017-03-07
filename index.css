@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+}
+body{
+    padding-top: 392px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+p{
+    line-height: 2;
+}
+.map{
+    width: 421px;
+    height: 372px;
+    padding: 0;
+    background: url('./map.jpg') 0 0;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -211px;
+}
+.island{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+.tip-start, .tip-end{
+    display: none;
+    color: #fff;
+}
+.island-start .tip-start, .island-end .tip-end{
+    background-color: rgba(179,56,9,.85);
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+.island:hover{
+    text-decoration: none;
+}
+.island-A{
+    width: 70px;
+    height: 80px;
+    line-height: 80px;
+    left: 35px;
+    top: 0;
+}
+.island-B{
+    top: 26px;
+    width: 80px;
+    height: 44px;
+    line-height: 44px;
+    left: 132px;
+}
+.island-C{
+    width: 60px;
+    height: 86px;
+    line-height: 86px;
+    left: 219px;
+    top: 0;
+}
+.island-D{
+    width: 77px;
+    height: 64px;
+    line-height: 64px;
+    left: 315px;
+    top: 10px;
+}
+.island-E{
+    width: 78px;
+    height: 59px;
+    line-height: 59px;
+    left: 39px;
+    top: 96px;
+}
+.island-F{
+    width: 50px;
+    height: 105px;
+    line-height: 105px;
+    left: 142px;
+    top: 80px; 
+}
+.island-G{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    left: 230px;
+    top: 95px;
+}
+.island-H{
+    width: 70px;
+    height: 80px;
+    line-height: 80px;
+    left: 318px;
+    top: 90px;
+}
+.island-I{
+    width: 82px;
+    height: 78px;
+    line-height: 78px;
+    left: 39px;
+    top: 185px;
+}
+.island-J{
+    width: 74px;
+    height: 30px;
+    line-height: 30px;
+    left: 137px;
+    top: 210px;
+}
+.island-K{
+    width: 80px;
+    height: 75px;
+    line-height: 75px;
+    left: 226px;
+    top: 185px;
+}
+.island-L{
+    width: 60px;
+    height: 81px;
+    line-height: 81px;
+    left: 314px;
+    top: 185px;
+}
+.island-M{
+    width: 60px;
+    height: 82px;
+    line-height: 82px;
+    left: 61px;
+    top: 283px;
+}
+.island-N{
+    width: 74px;
+    height: 72px;
+    line-height: 72px;
+    top: 296px;
+    left: 137px
+}
+.island-O{
+    width: 63px;
+    height: 76px;
+    line-height: 76px;
+    left: 238px;
+    top: 290px;
+}
+.island-P{
+    width: 30px;
+    height: 72px;
+    line-height: 72px;
+    left: 345px;
+    top: 286px;
+}
+.point{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+}
+.point.on{
+    background-color: #74edb3;
+}
+.point-t{
+    left: 50%;
+    margin-left: -10px;
+    top: 0;
+}
+.point-t-r{
+    right: 0;
+    top: 0;
+}
+.point-r{
+    top: 50%;
+    margin-top: -10px;
+    right: 0;
+}
+.point-r-b{
+    right: 0;
+    bottom: 0;
+}
+.point-b{
+    left: 50%;
+    margin-left: -10px;
+    bottom: 0;
+}
+.point-b-l{
+    left: 0;
+    bottom: 0;
+}
+.point-l{
+    top: 50%;
+    margin-top: -10px;
+    left: 0;
+}
+.point-l-t{
+    left: 0;
+    top: 0;
+}
+
+.join-us{
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+}
+.join-us .title{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
