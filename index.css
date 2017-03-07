@@ -210,8 +210,10 @@ p{
 
 .join-us{
     padding-top: 20px;
-    margin-top: 30px;
     border-top: 1px solid #fff;
+    width: 100%;
+    max-width: 421px;
+    margin: 30px auto;
 }
 .join-us .title{
     font-size: 14px;
